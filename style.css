@@ -1,0 +1,610 @@
+body{
+    font-family: 'Lato', sans-serif; 
+    background-color: white; 
+}
+.container{
+    width: 1350px;
+    margin: auto;
+}
+.row{   
+    display: flex;
+    flex-wrap: wrap;   
+}
+.head{
+    padding-top: 20px;
+    padding-bottom: 60px;    
+}
+.header_logo{
+    width: 150px;
+    height: auto;    
+}
+.header_end{
+   width: 180px;
+    margin-left: 1130px; 
+    
+}
+ 
+.header_end a{
+    text-decoration: none;
+     padding: 8px 8px; 
+}
+
+.abc{
+    color: blue;
+}
+
+.def{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.feature_n1{
+    width: 530px;
+    
+    margin-left:120px;
+    padding-top: 150px;
+}
+
+.feature_n1 h1{
+    font-size: 39px;
+}
+.feature_n1 p{
+    font-size: 18px;
+    color: rgb(27, 22, 22);
+}
+
+.feature_n1 button{
+    width: 30px;
+}
+
+.feature_n1 a{
+    text-decoration:none ;
+    margin-left: 20px;
+    font-size: 20px;
+    background-color: rgb(90, 79, 238);
+    padding: 7px;
+    color: white;
+    border-radius: 7px;
+}
+.feature_n1 a:hover{
+    background-color: rgb(36, 22, 228);
+}
+
+.btn{
+    padding-left:7px ;
+    padding-right: 250px;
+    font-size: 25px;
+    border: 1px solid rgb(190, 182, 182);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 7px;
+    color: rgb(163, 163, 160);
+}
+
+.hero{
+    
+    margin-left: 200px;
+}
+
+.hero img{
+    width: 450px;
+}
+
+.board_n1{
+    
+    margin-top: 100px;
+}
+
+.board_n1 h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+.board_n1 p{
+    font-size: 25px;
+    margin-left: 160px;
+    width: 1000px;
+    color: rgb(49, 47, 47);
+}
+
+.board_n1 a{
+      border: 1px solid rgb(83, 81, 226);
+      text-align: center; 
+      margin-left: 560px; 
+      text-decoration: none;
+      font-size: 25px;
+      padding: 8px;
+      color:rgb(83, 81, 226);
+      border-radius: 6px;
+      
+}
+.board_n1 a:hover{
+    color: white;
+    background-color: rgb(48, 48, 150);
+}
+
+
+
+.board_im img{
+    width: 80%;
+    margin-left: 120px;
+    margin-top: 20px;
+    
+}
+
+.para_last{
+    text-align: center;
+    margin-top: 0px;
+}
+.under{
+    
+    width: 625px;
+    margin: 0px auto;
+    
+    
+}
+
+.under p{
+    display:   inline;
+    
+    margin: 0px 10px;
+}
+
+.fender{
+    font-style: calc();
+    
+}
+
+.square{
+    font-style: var();
+    
+}
+
+.cost{
+    font-weight:bolder;
+}
+.help_trello{
+    margin-top: 80px;
+}
+
+.help_1{
+    width: 600px;
+    
+  
+}
+
+.help_1 h3{
+    font-size: 40px;
+}
+.help_1 p{
+    font-size: 25px;
+}
+
+.photo_board{
+    
+    margin-top: 70px;
+}
+
+.view_img{
+    
+     width: 30%;
+     
+     
+}
+
+
+
+.view_2{
+    
+    width: 700px;
+    display: block;
+    margin-left: 20px;
+    padding-top: 0px;
+    
+    
+    
+    
+}
+
+.block_line{
+    display: block;
+   
+    margin-top: 20px;
+    
+}
+
+.block_line a{
+    font-size: 25px;
+    color: black;
+    text-decoration: dashed white;
+    
+  
+
+}
+
+
+
+.view_2 h4{
+    font-weight: bold;
+    font-size: 30px;
+   
+    margin-top: 5px;
+}
+
+.box{
+    color: rgb(126, 121, 121);
+    font-size: 25px;
+}
+.trello_details{
+    margin-top: 110px;
+}
+
+.details_1{
+   
+    width: 700px;
+    padding-bottom: 0px;
+  
+}
+
+.details_pht{
+   
+    margin-left: 90px;
+}
+
+.details_1 h5{
+    font-size: 30px;
+    
+    margin-top: 0px;
+}
+.details_1 p{
+    
+    margin-top: 0px;
+   
+   
+}
+
+.box_2{
+    margin-top: 0px;
+ color:    rgb(126, 121, 121);
+    font-size: 25px;
+}
+
+.details_1 a{
+    font-size: 25px;
+    color: black;
+    text-decoration:none;
+    border-bottom: 3px solid rgb(243, 231, 243);
+    
+}
+
+.details_1 a:hover{
+    border-bottom: 3px solid black;
+}
+
+.automation{
+    
+    margin-top: 150px;
+    
+}
+
+.auto_mation {
+    width: 400px;
+    margin-left: 45px;
+  
+}
+.auto_words{
+    width: 700px;
+    
+    margin-left: 30px;
+   padding-bottom: 0%;
+   
+}
+.auto_words h6{
+    font-size: 30px;
+    
+    margin-top: 0px;
+}
+
+.box_3{
+    margin-top: 0px;
+    color:    rgb(126, 121, 121);
+       font-size: 25px;
+}
+
+.auto_words a{
+    font-size: 25px;
+    color: black;
+    text-decoration:none;
+    border-bottom: 3px solid rgb(243, 231, 243);
+    
+}
+
+.auto_words a:hover{
+    border-bottom: 3px solid black;
+}
+
+.powerup{
+    margin-top: 100px;
+}
+
+.powerup_1{
+   margin-left: 50px;
+     width: 700px;
+}
+
+.powerup_1 h6{
+
+    
+    font-size: 30px;
+    margin-top: 0%;
+}
+.powerup_1 p{
+    margin-top: 0%;
+}
+.powerup_1 a{
+    font-size: 25px;
+    color: black;
+    text-decoration:none;
+    border-bottom: 3px solid rgb(243, 231, 243);
+    
+    
+}
+
+.powerup_1 a:hover{
+    border-bottom: 3px solid black;
+}
+
+.powerup_2{
+    width: 400px;
+    margin-left: 70px;
+}
+
+.product {
+    margin-top: 60px;
+}
+.box_4{
+    width: 275px;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+
+.cba{
+    width: 15%;
+}
+
+.fed{
+    width: 15%;
+}
+
+.product_1{
+
+    background-color: white;
+    
+    width: 900px ;
+    margin: 40px auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 0px ;
+}
+
+.box_4 h1{
+    font-size: 20px;
+}
+
+.box_4 a{
+    text-decoration: none;
+    border: 1px solid rgb(77, 77, 223);
+    color: rgb(71, 71, 218);
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 3px;
+    
+    border-radius: 5px;
+    
+}
+.box_4 a:hover{
+    color: white;
+    background-color: rgb(20, 20, 196);
+}
+
+.ebay{
+    background-color: rgb(230, 246, 253);
+    margin-top: 50px;
+}
+
+.last{
+    margin-left: 70px;
+   
+    width: 100px;
+}
+
+.last img{
+    padding-top: 40px;
+    width: 200%;
+}
+.last h1{
+    padding-top: 40px;
+     font-weight: 600;
+    font-size: 17px;
+   
+    
+}
+
+.last p{
+    font-size: 25px;
+    font-weight: 700;
+    
+    margin-top: 0px;
+}
+
+ .pl{
+    margin-left: 400px;
+    
+    width: 700px;
+    font-size: 30px;
+    padding-top: 90px;
+    font-weight: 400;
+  margin-bottom: 0%;
+  
+ 
+ 
+ 
+ 
+}
+
+.name{
+    font-size: 10px;
+    
+    margin-bottom: 0%;
+    font-weight: bold;
+}
+
+
+
+.po {
+    
+    width: 5cm;
+    margin-left: 1100px;
+    
+}
+.person{
+margin-bottom: 45px;
+  
+    margin-top: 0%;
+    
+}
+
+.line{
+    height: 6px;
+    background-color: black;
+}
+.container_2{
+    width: 1350px;
+    margin: auto;
+    border: 2px solid black;
+    background-color: rgb(124, 166, 238);
+    margin-top: 25px;
+    border-radius: 17px;
+    
+}
+.signup{
+    text-align: center;
+    
+    font-size: 25px;
+    width: 650px;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+.btn_2{
+   border: 1px solid rgb(226, 214, 214);
+    background-color: white;
+    padding-right: 300px;
+    font-size: 30px;
+    color: rgb(206, 197, 197);
+    border-radius: 5px;
+}
+
+
+.last_box{
+   
+   width: 540px;
+   margin: 35px auto;
+   
+}
+.block{
+    font-size: 25px;
+    background-color: rgb(32, 179, 162);
+    margin-left: 25px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+.app_1{
+   
+    width: 1000px; 
+    padding-bottom: 0%;   
+    margin: 0px auto;
+    padding-top: 0%;
+}
+.paa{
+    
+    width: 400px;
+    margin-top: 100px;
+   margin-left: 30px; 
+   font-size: 20px;
+   margin-bottom: 0%;
+}
+
+
+.apple{
+    width: 20%;
+    
+    margin-left:600px ;
+    
+   
+    
+}
+.play_store{
+    width: 11%;
+    
+  margin-bottom: 28px;
+    
+}
+
+.english{
+    
+    width: 1300px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.go{
+    border: 1px solid black;
+    background-color: rgb(231, 229, 229);
+    margin: auto 0px;
+    text-align: center;
+    width: 3cm;
+    margin-left: 550px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 70px;
+    padding-left: 0px;
+}
+.footer{
+    margin-top: 25px;
+    
+   
+}
+
+.foot{
+    margin: auto;
+    margin-right: 300px;
+    margin-left: 250px;
+    
+}
+.foot a{
+    padding: 0px 6px;
+    color: rgb(182, 175, 175);
+}
+
+.foot a:hover{
+    color: black;
+}
+
+.atlass{
+   
+    width: 10%;
+    margin: 0px auto;
+    margin-right: 640px;
+}
+
+.cp{
+    text-align: center;
+    margin-right: 65px;
+    color: rgb(114, 120, 120);
+}
+.lf{
+    padding-bottom: 50px;
+}
